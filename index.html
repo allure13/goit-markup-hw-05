@@ -460,15 +460,65 @@
             </li>
           </ul>
         </div>
-      </div>
 
-      <form>
-        <label class="form-label" for="">
-          <p class="form-footer-text">Subscribe</p>
-          <input type="email" placeholder="E-mail" name="user_email" />
-        </label>
-        <button class="footer-btn">Subscribe</button>
-      </form>
+        <div class="form-container">
+          <form class="footer-form">
+            <label class="form-label" for="e-mail"></label>
+            <p class="form-footer-text">Subscribe</p>
+            <input
+              class="input"
+              type="email"
+              placeholder="E-mail"
+              name="user_email"
+              id="e-mail"
+            />
+
+            <button class="footer-btn" type="submit">
+              Subscribe
+              <span>
+                <svg class="footer-btn-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-subscribe-icon"></use>
+                </svg>
+              </span>
+            </button>
+          </form>
+        </div>
+      </div>
     </footer>
+
+    <!------------------------------------MODAL BG------------------------------------------>
+    <div>
+      <button class="modal-close" type="button">
+        <svg class="close-btn" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-icon"></use>
+        </svg>
+      </button>
+      <p class="modal-text">Leave your contacts and we will call you back</p>
+      <form class="modal-form">
+        <label for="name">
+          Name
+          <input type="name" name="user_name" id="name" />
+        </label>
+        <label for="tel">
+          Phone
+          <input type="tel" name="user_tel" id="tel" />
+        </label>
+        <label for="email">
+          Email
+          <input type="email" name="user_email" />
+        </label>
+        <label for="comment">
+          Comment
+          <textarea name="comment" id="" placeholder="text input"></textarea>
+        </label>
+        <label for="">
+          <input
+            type="checkbox"
+            value="I accept the terms and conditions of the Privacy Policy"
+          />
+        </label>
+        <button class="modal-btn" type="submit">Send</button>
+      </form>
+    </div>
   </body>
 </html>
