@@ -644,7 +644,7 @@ margin-bottom: 16px;
 }
 
 
-.modal-input:focus .modal-icon {
+.modal-input:focus + .modal-icon {
   fill: #4D5AE5;
 }
 
