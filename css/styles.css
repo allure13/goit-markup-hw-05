@@ -529,3 +529,7 @@ ul {
   display: flex;
   flex-direction: column;
 }
+
+.modal-link {
+  color: var(--IRIS, #4d5ae5);
+}
