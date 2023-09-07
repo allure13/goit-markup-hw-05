@@ -491,7 +491,7 @@ ul {
   gap: 24px;
 }
 
-.input-footer {
+.input_footer {
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
@@ -504,7 +504,7 @@ ul {
   color: #ffffff;
 }
 
-.input::placeholder {
+.input_footer::placeholder {
   color #ffffff;
 }
 
